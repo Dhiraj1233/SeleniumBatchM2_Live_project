@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GroupingTest" thread-count="5">
+
+<groups>
+	 <run>
+		 <include name="Sanity"></include>	
+		 <!--<include name="Regression"></include>-->
+	 </run>
+</groups>
+ 
+<test name="ChromeTest">
+		<parameter name="Os" value="Windows"></parameter> 
+	<parameter name="browser" value="Chrome"></parameter>
+      <classes>
+     	<class name="com.OpenCart.TestCases.TC01_Account_Registration"/> 
+     	<class name="com.OpenCart.TestCases.TC02_LoginTest"></class>
+        <!-- <class name="com.OpenCart.TestCases.TC02_LoginDdt"></class>-->
+      </classes>
+</test>
+</suite>

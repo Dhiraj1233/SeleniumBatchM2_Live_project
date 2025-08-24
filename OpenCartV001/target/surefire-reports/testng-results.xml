@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-23T12:51:12 IST" name="GroupingTest" finished-at="2025-08-23T12:51:19 IST" duration-ms="7317">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC01_Account_Registration.accountRegistration()[pri:0, instance:com.OpenCart.TestCases.TC01_Account_Registration@72967906]" name="accountRegistration" class="com.OpenCart.TestCases.TC01_Account_Registration"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-08-23T12:51:12 IST" name="ChromeTest" finished-at="2025-08-23T12:51:19 IST" duration-ms="7317">
+      <class name="com.OpenCart.TestCases.TC01_Account_Registration">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.OpenCart.TestCases.TC01_Account_Registration@72967906]" started-at="2025-08-23T12:51:12 IST" name="setUp" finished-at="2025-08-23T12:51:14 IST" duration-ms="2764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountRegistration()[pri:0, instance:com.OpenCart.TestCases.TC01_Account_Registration@72967906]" started-at="2025-08-23T12:51:14 IST" name="accountRegistration" finished-at="2025-08-23T12:51:16 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.TC01_Account_Registration@72967906]" started-at="2025-08-23T12:51:16 IST" name="tearDown" finished-at="2025-08-23T12:51:19 IST" duration-ms="2459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.TestCases.TC01_Account_Registration -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- GroupingTest -->
+</testng-results>
